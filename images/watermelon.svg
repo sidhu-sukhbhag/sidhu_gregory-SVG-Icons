@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62.49 50.91">
+<svg id="watermelon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62.49 50.91">
   <defs>
     <style>
       .cls-1 {
@@ -21,6 +21,9 @@
       .cls-4 {
         fill: url(#linear-gradient-4);
       }
+       #watermelon:hover #red{
+		fill:green;
+	  }
     </style>
     <linearGradient id="linear-gradient" x1="77.87" y1="26.43" x2="78.33" y2="26.43" gradientTransform="translate(0 51.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#389545"/>

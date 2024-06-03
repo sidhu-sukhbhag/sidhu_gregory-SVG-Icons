@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.72 109.82">
+<svg id="tangerine" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.72 109.82">
   <defs>
     <style>
       .cls-1 {
@@ -23,6 +23,9 @@
       .cls-4 {
         fill: #ff8500;
       }
+       #tangerine:hover #orange{
+		fill:green;
+	  }
     </style>
   </defs>
   <path id="orange" class="cls-4" d="M59.25,8.88c27.87,0,50.47,22.6,50.47,50.47s-22.6,50.47-50.47,50.47S8.78,87.22,8.78,59.35,31.38,8.88,59.25,8.88Z"/>

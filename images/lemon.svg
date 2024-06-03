@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.34 117.35">
+<svg id="lemon" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.34 117.35">
   <defs>
     <style>
       .cls-1 {
@@ -19,6 +19,9 @@
         isolation: isolate;
         opacity: .39;
       }
+       #lemon:hover #yellow{
+		fill:green;
+	  }
     </style>
     <linearGradient id="linear-gradient" x1="51.69" y1="47.73" x2="196.34" y2="47.73" gradientTransform="translate(0 117.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#7cc242"/>

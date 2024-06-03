@@ -13,6 +13,15 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.grid-con {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 30px;
+    max-width: 767px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .body{
     margin: 0 auto;
