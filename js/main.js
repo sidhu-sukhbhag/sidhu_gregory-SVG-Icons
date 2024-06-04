@@ -1,9 +1,9 @@
 console.log("Javascript File is Linked")
 
-const lemon= document.querySelector("#lemon");
+document.getElementById('lemon-icon').addEventListener('click', function() {
+    console.log('Lemon icon clicked');
+});
 
-function logIdlemon() {
-    console.log("User clicked on"+ lemon.id)
-}
-
-lemon .addEventListener("click", logIdlemon)
+document.getElementById('apple-icon').addEventListener('click', function() {
+    console.log('Apple icon clicked');
+}); 
