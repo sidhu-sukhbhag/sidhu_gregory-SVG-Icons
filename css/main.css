@@ -13,15 +13,7 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.grid-con {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-column-gap: 30px;
-    max-width: 767px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .body{
     margin: 0 auto;
@@ -54,6 +46,23 @@ header {
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
+}
+
+#icon-1,#icon-2,#icon-3,#icon-4, #icon-5,#icon-6{
+    width: 250px;
+}
+
+
+#icons-set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 300px;
+    margin: auto;
+}
+
+#icon-3{
+    width: 200;
 }
 
 #Icons h4 {
