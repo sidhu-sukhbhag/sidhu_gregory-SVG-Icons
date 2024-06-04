@@ -1,25 +1,16 @@
 .hidden{
     display: none;
 }
-<<<<<<< HEAD
+
 h2{
     font-size: 50px;
 }
 =======
 
 
-header {
-    background-color: brown;
-    box-shadow: 0px 5px 5px black;
-    position: fixed;
-    width: 100%;
-    color: azure;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
->>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
+
+
 
 #h5{align-items: center;}
 
@@ -40,7 +31,7 @@ header {
 }
 
 
-<<<<<<< HEAD
+
 footer{
 =======
 #Icons {
@@ -74,7 +65,7 @@ footer{
 }
 
   footer{
->>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
+
     max-width: 360px;
     padding-left: 50px;
     padding-bottom: 50px;
