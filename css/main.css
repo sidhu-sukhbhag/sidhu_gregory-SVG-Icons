@@ -86,3 +86,10 @@ object{
     margin-bottom: 30px;
 }
 
+svg {
+        max-width: 300px;
+        margin: 0 auto 40px auto;
+        display: block;
+    }
+    
+
