@@ -1,9 +1,25 @@
 .hidden{
     display: none;
 }
+<<<<<<< HEAD
 h2{
     font-size: 50px;
 }
+=======
+
+
+header {
+    background-color: brown;
+    box-shadow: 0px 5px 5px black;
+    position: fixed;
+    width: 100%;
+    color: azure;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+>>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
 
 #h5{align-items: center;}
 
@@ -24,7 +40,41 @@ h2{
 }
 
 
+<<<<<<< HEAD
 footer{
+=======
+#Icons {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#icon-1,#icon-2,#icon-3,#icon-4, #icon-5,#icon-6{
+    width: 250px;
+}
+
+
+#icons-set{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 300px;
+    margin: auto;
+}
+
+#icon-3{
+    width: 200;
+}
+
+#Icons h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+  footer{
+>>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
     max-width: 360px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -39,4 +89,11 @@ footer{
     width: 500px;
     margin-bottom: 30px;
 }
+
+svg {
+        max-width: 300px;
+        margin: 0 auto 40px auto;
+        display: block;
+    }
+    
 
