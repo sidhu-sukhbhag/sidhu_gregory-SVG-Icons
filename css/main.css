@@ -1,6 +1,11 @@
 .hidden{
     display: none;
 }
+<<<<<<< HEAD
+h2{
+    font-size: 50px;
+}
+=======
 
 
 header {
@@ -14,18 +19,17 @@ header {
     padding-bottom: 15px;
 }
 
+>>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
 
-.body{
+#h5{align-items: center;}
+
+
+
+#body{
     margin: 0 auto;
     background-color: whitesmoke;
 }
 
-
-.playfair-display {
-    font-family: "Playfair Display", serif;
-    font-weight: 415;
-    font-style: italic;
-  }
 
 #main {
     padding-left: 50px;
@@ -35,11 +39,10 @@ header {
     text-align: center;
 }
 
-#main h4 {
-    font-size: 42px;
-    font-weight: 600;
-}
 
+<<<<<<< HEAD
+footer{
+=======
 #Icons {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -71,6 +74,7 @@ header {
 }
 
   footer{
+>>>>>>> ffddb364fa3e2c196af53f849c748128a62e199e
     max-width: 360px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -81,8 +85,8 @@ header {
     opacity: .80;
 }
 
-object{
-    width: 200px;
+.object{
+    width: 500px;
     margin-bottom: 30px;
 }
 

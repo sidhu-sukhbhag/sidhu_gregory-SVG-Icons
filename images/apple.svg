@@ -19,9 +19,19 @@
       .cls-3 {
         fill: #467d29;
       }
-       #apple:hover #red{
+    #apple:hover #red{
 		fill:green;
+    animation: pulse 1s infinite;
+  
 	  }
+    <script>
+const apple = document.querySelector("#apple");
+function logID() {
+console.log(this.id);
+}
+
+apple.addEventListener("click", logID);
+</script>
     </style>
     
   </defs>

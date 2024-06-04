@@ -22,6 +22,14 @@
        #lemon:hover #yellow{
 		fill:green;
 	  }
+    <script>
+const apple = document.querySelector("#lemon");
+function logID() {
+console.log(this.id);
+}
+
+apple.addEventListener("click", logID);
+</script>
     </style>
     <linearGradient id="linear-gradient" x1="51.69" y1="47.73" x2="196.34" y2="47.73" gradientTransform="translate(0 117.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#7cc242"/>

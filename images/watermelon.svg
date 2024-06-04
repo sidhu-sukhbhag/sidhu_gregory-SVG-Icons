@@ -24,6 +24,14 @@
        #watermelon:hover #red{
 		fill:green;
 	  }
+    <script>
+const apple = document.querySelector("#watermelon");
+function logID() {
+console.log(this.id);
+}
+
+apple.addEventListener("click", logID);
+</script>
     </style>
     <linearGradient id="linear-gradient" x1="77.87" y1="26.43" x2="78.33" y2="26.43" gradientTransform="translate(0 51.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#389545"/>
